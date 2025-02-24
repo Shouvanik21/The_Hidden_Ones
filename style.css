@@ -35,6 +35,10 @@
     background-image: url("./images/bg-img5.jpg");
 }
 
+.parallax:nth-child(6){
+    background-image: url("./images/bg-img6.png");
+}
+
 .content{
     color: #f0f0f0;
     text-align: center;
