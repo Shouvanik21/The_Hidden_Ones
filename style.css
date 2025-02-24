@@ -43,6 +43,10 @@
     background-image: url("./images/bg-img7.jpg");
 }
 
+.parallax:nth-child(8){
+    background-image: url("./images/bg-img8.jpg");
+}
+
 .content{
     color: #f0f0f0;
     text-align: center;
