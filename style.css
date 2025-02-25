@@ -36,6 +36,42 @@
 .parallax:nth-child(2){
     background-image: url("./images/bg-img2.jpg");
 }
+.content2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.content2 h1{
+    color: white;
+}
+.cnt1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cnt1 button{
+    border: none;
+    margin: 30px;
+    padding: 8px;
+    border-radius: 30px;
+    width: 150px;
+    background-color: black;
+    color: white;
+}
+.content2 p{
+    width: 75vw;
+    text-align: center;
+    color: white;
+    font-size: 25px;
+}
+.cnt2 button{
+    border: none;
+    margin: 30px;
+    padding: 8px;
+    width: 125px;
+    border-radius: 5px;
+}
 
 .parallax:nth-child(3){
     background-image: url("./images/bg-img3.jpg");
