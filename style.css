@@ -44,6 +44,7 @@
 }
 .content2 h1{
     color: white;
+    font-size: clamp(2rem,5vw,6rem);
 }
 .cnt1{
     display: flex;
@@ -71,6 +72,12 @@
     padding: 8px;
     width: 125px;
     border-radius: 5px;
+}
+.cnt2 button:hover{
+    cursor: pointer;
+}
+#one,#two{
+    margin-left: 10px;
 }
 
 .parallax:nth-child(3){
