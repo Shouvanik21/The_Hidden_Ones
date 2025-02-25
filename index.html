@@ -6,7 +6,9 @@
     <title>The Hidden Ones</title>
     <link rel="stylesheet" href="style.css">
 </head>
-<body>
+<body>    
+    <audio id="bg-music" src="bg-music.mp3" autoplay loop></audio>
+
     <div class="main">
         <div class="parallax">
             <div class="content">
@@ -98,6 +100,13 @@
                 <p>Scroll down to see the effect</p>
             </div>
         </div>    
-    </div>
+    </div>    
+
+    <script>
+        const audio=document.getElementById("bg-music");
+        window.onload = () => {
+            audio.play();
+        };
+    </script>
 </body>
 </html>
