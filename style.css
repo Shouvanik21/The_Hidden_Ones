@@ -20,7 +20,7 @@
 }
 
 .parallax:nth-child(2){
-    background-image: url("./images/bg-img2.jpeg");
+    background-image: url("./images/bg-img2.jpg");
 }
 
 .parallax:nth-child(3){
@@ -49,6 +49,30 @@
 
 .parallax:nth-child(9){
     background-image: url("./images/bg-img9.jpg");
+}
+
+.parallax:nth-child(10){
+    background-image: url("./images/bg-img10.jpg");
+}
+
+.parallax:nth-child(11){
+    background-image: url("./images/bg-img11.jpg");
+}
+
+.parallax:nth-child(12){
+    background-image: url("./images/bg-img12.jpg");
+}
+
+.parallax:nth-child(13){
+    background-image: url("./images/bg-img8.jpg");
+}
+
+.parallax:nth-child(14){
+    background-image: url("./images/bg-img9.jpg");
+}
+
+.parallax:nth-child(15){
+    background-image: url("./images/bg-img10.jpg");
 }
 
 .content{
