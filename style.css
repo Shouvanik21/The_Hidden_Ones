@@ -19,6 +19,19 @@
 .parallax:nth-child(1){
     background-image: url("./images/bg-img1.jpg");
 }
+.content1 h1{
+    -webkit-text-stroke: 1px black; /* Outline thickness and color */
+    -webkit-text-fill-color: #dcdcdc; /* Text color */
+    text-align: center;
+    padding: 50px;
+    font-size: clamp(2rem,5vw,6rem);
+}
+.c1{
+    font-size: 25px;
+    margin-top: 20px;
+    color: red;
+    text-align: center;
+}
 
 .parallax:nth-child(2){
     background-image: url("./images/bg-img2.jpg");
