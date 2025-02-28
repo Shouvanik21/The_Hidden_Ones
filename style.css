@@ -577,6 +577,51 @@
 .parallax:nth-child(13){
     background-image: url("./images/bg-img13.jpg");
 }
+.content13{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.content13 h1{
+    color: white;
+    font-size: clamp(2rem,5vw,6rem);
+}
+.content13 .cnt1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.content13 .cnt1 button{
+    border: none;
+    margin: 30px;
+    padding: 8px;
+    border-radius: 30px;
+    width: 150px;
+    background-color: black;
+    color: white;
+}
+.content13 p{
+    width: 75vw;
+    text-align: center;
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+}
+.content13 .cnt2 button{
+    border: none;
+    margin: 30px;
+    padding: 8px;
+    width: 125px;
+    border-radius: 5px;
+    background-color: white;
+}
+.content13 .cnt2 button:hover{
+    cursor: pointer;
+}
+.content13 #one,#two{
+    margin-left: 10px;
+}
 
 .parallax:nth-child(14){
     background-image: url("./images/bg-img14.jpg");
