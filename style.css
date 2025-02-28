@@ -2,6 +2,10 @@
     margin: 0;
     padding: 0;
     scroll-behavior: smooth;
+    cursor: url("./images/cursor.png") , auto;
+}
+
+body{
 }
 
 .parallax{
@@ -73,9 +77,14 @@
     padding: 8px;
     width: 125px;
     border-radius: 5px;
+    background-color: white;
+    color: black;
+    transition: color 0.5s ease;
 }
 .content2 .cnt2 button:hover{
     cursor: pointer;
+    background-color: black;
+    color: white;
 }
 .content2 #one,#two{
     margin-left: 10px;
@@ -125,9 +134,14 @@
     border-radius: 5px;
     background-color: black;
     color: white;
+    background-color: white;
+    color: black;
+    transition: color 0.5s ease;
 }
 .content3 .cnt2 button:hover{
     cursor: pointer;
+    background-color: black;
+    color: white;
 }
 .content3 #one,#two{
     margin-left: 10px;
@@ -174,9 +188,13 @@
     width: 125px;
     border-radius: 5px;
     background-color: white;
+    color: black;
+    transition: color 0.5s ease;
 }
 .content4 .cnt2 button:hover{
     cursor: pointer;
+    background-color: black;
+    color: white;
 }
 .content4 #one,#two{
     margin-left: 10px;
@@ -223,9 +241,13 @@
     width: 125px;
     border-radius: 5px;
     background-color: white;
+    color: black;
+    transition: color 0.5s ease;
 }
 .content5 .cnt2 button:hover{
     cursor: pointer;
+    background-color: black;
+    color: white;
 }
 .content5 #one,#two{
     margin-left: 10px;
@@ -272,9 +294,13 @@
     width: 125px;
     border-radius: 5px;
     background-color: white;
+    color: black;
+    transition: color 0.5s ease;
 }
 .content6 .cnt2 button:hover{
     cursor: pointer;
+    background-color: black;
+    color: white;
 }
 .content6 #one,#two{
     margin-left: 10px;
@@ -321,9 +347,13 @@
     width: 125px;
     border-radius: 5px;
     background-color: white;
+    color: black;
+    transition: color 0.5s ease;
 }
 .content7 .cnt2 button:hover{
     cursor: pointer;
+    background-color: black;
+    color: white;
 }
 .content7 #one,#two{
     margin-left: 10px;
@@ -370,9 +400,13 @@
     width: 125px;
     border-radius: 5px;
     background-color: white;
+    color: black;
+    transition: color 0.5s ease;
 }
 .content8 .cnt2 button:hover{
     cursor: pointer;
+    background-color: black;
+    color: white;
 }
 .content8 #one,#two{
     margin-left: 10px;
@@ -419,9 +453,13 @@
     width: 125px;
     border-radius: 5px;
     background-color: white;
+    color: black;
+    transition: color 0.5s ease;
 }
 .content9 .cnt2 button:hover{
     cursor: pointer;
+    background-color: black;
+    color: white;
 }
 .content9 #one,#two{
     margin-left: 10px;
@@ -468,9 +506,13 @@
     width: 125px;
     border-radius: 5px;
     background-color: white;
+    color: black;
+    transition: color 0.5s ease;
 }
 .content10 .cnt2 button:hover{
     cursor: pointer;
+    background-color: black;
+    color: white;
 }
 .content10 #one,#two{
     margin-left: 10px;
@@ -517,9 +559,13 @@
     width: 125px;
     border-radius: 5px;
     background-color: white;
+    color: black;
+    transition: color 0.5s ease;
 }
 .content11 .cnt2 button:hover{
     cursor: pointer;
+    background-color: black;
+    color: white;
 }
 .content11 #one,#two{
     margin-left: 10px;
@@ -566,9 +612,13 @@
     width: 125px;
     border-radius: 5px;
     background-color: white;
+    color: black;
+    transition: color 0.5s ease;
 }
 .content12 .cnt2 button:hover{
     cursor: pointer;
+    background-color: black;
+    color: white;
 }
 .content12 #one,#two{
     margin-left: 10px;
@@ -615,9 +665,13 @@
     width: 125px;
     border-radius: 5px;
     background-color: white;
+    color: black;
+    transition: color 0.5s ease;
 }
 .content13 .cnt2 button:hover{
     cursor: pointer;
+    background-color: black;
+    color: white;
 }
 .content13 #one,#two{
     margin-left: 10px;
@@ -664,9 +718,13 @@
     width: 125px;
     border-radius: 5px;
     background-color: white;
+    color: black;
+    transition: color 0.5s ease;
 }
 .content14 .cnt2 button:hover{
     cursor: pointer;
+    background-color: black;
+    color: white;
 }
 .content14 #one,#two{
     margin-left: 10px;
@@ -713,23 +771,18 @@
     width: 125px;
     border-radius: 5px;
     background-color: white;
+    color: black;
+    transition: color 0.5s ease;
 }
 .content15 .cnt2 button:hover{
     cursor: pointer;
+    background-color: black;
+    color: white;
 }
+
 .content15 #one,#two{
     margin-left: 10px;
 }
-
-/* .content{
-    color: #f0f0f0;
-    text-align: center;
-    padding: 50px;
-}
-
-.content h1{
-    font-size: clamp(2rem,5vw,6rem);
-} */
 
 ::-webkit-scrollbar {
     width: 0px;
